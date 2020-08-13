@@ -1,4 +1,4 @@
-# Design of embedded systems using SOCs, FPGAs and SBCs
+# Design of embedded systems using MCUs, FPGAs and SBCs :rocket:
 This repo contains code, designs and reports/journals from various projects from the courses:
 - E2DEL (Digital Elektronik - digital electronics),
 - E3ISD1 and E4ISD2 (Indlejret Systemdesign - design of embedded systems), and
