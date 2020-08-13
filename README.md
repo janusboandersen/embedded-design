@@ -5,15 +5,15 @@ This repo contains code, designs and reports/journals from various projects from
 - E4BIS (Brugeroplevelser i Indlejrede Systemer - user experience with embedded systems).
 
 Hardware used is:
-1. Freedom KL25Z board from NXP with a Kinetis SOC based on the Arm Cortex M0+ core, bare-metal and with FreeRTOS.
+1. Freedom KL25Z MCU board from NXP with a Kinetis processor based on the Arm Cortex-M0+ core, runs bare-metal and with FreeRTOS.
 2. The Arty A7 FPGA board with the Artix-7 FPGA.
-3. The PocketBeagle SBC using the Sitara AM335x processor, running headless Debian Linux.
+3. The PocketBeagle SBC using the Sitara AM335x processor based on the Arm Cortex-A8 core, running a headless Debian Linux.
 - Various additional off-the-shelf components.
 
 Key concepts and technologies are:
 - Development based on system requiremenents.
-1. SOC-related:
- * Programming for the M0+ ISA using the CMSIS Hardware Abstraction Layer (HAL)
+1. MCU-related:
+ * Programming for the M0+ ISA using e.g. the CMSIS Hardware Abstraction Layer (HAL)
  * Using interrupts efficiently
  * Using peripherals efficiently (DMA, Timers, ADC, DAC, SPI, GPIO, etc.)
  * Programming for real-time systems using FreeRTOS
@@ -23,6 +23,7 @@ Key concepts and technologies are:
  * Describing hardware using VHDL
  * Concurrent co-design of hardware and software.
 3. SBC-related:
+ * Distributed systems
  * Systems Programming
  * Network programming
  * Client-server architecture
